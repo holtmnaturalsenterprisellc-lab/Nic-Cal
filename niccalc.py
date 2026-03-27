@@ -77,14 +77,25 @@ st.markdown(f"""
 </div>
 """, unsafe_allow_html=True)
 
-# ── CTA ───────────────────────────────────────────────────────────────────────
+# ── CTA Block ─────────────────────────────────────────────────────────────────
 st.markdown(f"""
-<div class="cta-box">
-  <p style="color:white; margin-bottom:0.5rem; font-size:1rem;">
-    Ready to keep that <strong>${saved_in_1_year:,.0f}/year</strong> in your pocket?
+<div style="background:#ff6b35; padding:1.8rem; border-radius:14px; 
+text-align:center; margin-top:1rem;">
+  <p style="color:white; font-size:1.1rem; margin:0 0 6px;">
+    Ready to quit for good?
   </p>
-  <a href="https://shopburstbar.com/quit-plan" target="_blank">
-    Get your free 30-Day Burst Quit Plan →
+  <p style="color:rgba(255,255,255,0.9); font-size:0.95rem; margin:0 0 16px;">
+    The <strong>Burst B-12 Diffuser + 30-Day Quit Plan</strong> has helped 
+    1,000+ people replace vaping. You could save 
+    <strong>${saved_in_1_year:,.0f} this year alone.</strong>
+  </p>
+  <a href="https://shopburstbar.com" 
+     style="background:white; color:#ff6b35; font-weight:700; font-size:1rem;
+     padding:12px 28px; border-radius:8px; text-decoration:none; display:inline-block;">
+    Get the Burst Quit Bundle →
   </a>
+  <p style="color:rgba(255,255,255,0.75); font-size:0.8rem; margin:12px 0 0;">
+    shopburstbar.com
+  </p>
 </div>
 """, unsafe_allow_html=True)
