@@ -29,7 +29,7 @@ with col1:
                                       value=3.0, step=0.5)
 with col2:
     cost_per_vape = st.number_input("Cost per vape ($)", min_value=1.0, max_value=100.0,
-                                     value=15.0, step=1.0)
+                                     value=18.0, step=1.0)
 with col3:
     years_vaping = st.number_input("Years vaping", min_value=0.5, max_value=20.0,
                                     value=2.0, step=0.5)
@@ -89,7 +89,7 @@ text-align:center; margin-top:1rem;">
     1,000+ people replace vaping. You could save 
     <strong>${saved_in_1_year:,.0f} this year alone.</strong>
   </p>
-  <a href=https://shopburstbar.com/pages/burst-b-12-6-months-nic-quit-plan" 
+  <a href=https://shopburstbar.com/pages/burst-b-12-6-months-nic-quit-plan 
      style="background:white; color:#ff6b35; font-weight:700; font-size:1rem;
      padding:12px 28px; border-radius:8px; text-decoration:none; display:inline-block;">
     Get the Burst Quit Bundle →
