@@ -89,7 +89,7 @@ text-align:center; margin-top:1rem;">
     1,000+ people replace vaping. You could save 
     <strong>${saved_in_1_year:,.0f} this year alone.</strong>
   </p>
-  <a href="https://shopburstbar.com" 
+  <a href=https://shopburstbar.com/pages/burst-b-12-6-months-nic-quit-plan" 
      style="background:white; color:#ff6b35; font-weight:700; font-size:1rem;
      padding:12px 28px; border-radius:8px; text-decoration:none; display:inline-block;">
     Get the Burst Quit Bundle →
