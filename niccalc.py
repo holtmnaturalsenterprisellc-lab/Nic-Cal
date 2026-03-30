@@ -11,7 +11,7 @@ st.markdown("### How much has vaping already cost you?")
 st.markdown("---")
 
 vapes_per_week = st.number_input("Vapes per week", min_value=1, max_value=30, value=3, step=1)
-cost_per_vape = st.number_input("Cost per vape ($)", min_value=1, max_value=100, value=15, step=1)
+cost_per_vape = st.number_input("Cost per vape ($)", min_value=1, max_value=100, value=18, step=1)
 years_vaping = st.number_input("Years vaping", min_value=1, max_value=20, value=2, step=1)
 
 spent_to_date = vapes_per_week * cost_per_vape * 52 * years_vaping
