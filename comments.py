@@ -83,15 +83,6 @@ else:
         ]
     })
     st.dataframe(sample, use_container_width=True)
-```
 
----
 
-## Step 3 — Update `requirements.txt`
 
-Edit your `requirements.txt` on GitHub to contain:
-```
-streamlit
-requests
-openpyxl
-pandas
